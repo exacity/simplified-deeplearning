@@ -1,2 +1,2 @@
-# Interesting
-Simple and crude implementations of some interesting works
+# Simplified Deeplearning
+Simplified implementations of some interesting works related to deep learning.
