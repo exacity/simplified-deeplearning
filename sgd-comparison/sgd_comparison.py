@@ -267,7 +267,7 @@ def test_model(classifier, shapes, fig_num=1):
     ax2.set_title('validation error')
     ax2.set_xlabel('training epochs')
     ax2.set_ylabel('error rate')
-    ax2.set_xlim((0, 10))
+    #ax2.set_xlim((0, 10))
     print('start test SGD...')
     sgd_updates = lambda parameters, gradients: sgd(parameters, gradients, learning_rate)
     sgd_train_costs, sgd_val_errors = sgd_optimization_mnist(sgd_updates, classifier)

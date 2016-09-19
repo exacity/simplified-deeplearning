@@ -6,7 +6,7 @@ import theano.tensor as T
 # http://sebastianruder.com/optimizing-gradient-descent/
 
 
-def sgd(parameters, gradients, eta=.05):
+def sgd(parameters, gradients, eta=1.0):
     """
     Basic Mini-batch Stochastic Gradient Descent.
     :param parameters:
@@ -79,18 +79,18 @@ def NAG(parameters, gradients, shapes, eta=.05, gamma=.9):
     return updates
 
 
-def AdaGrad(parameters, gradients, shapes, eta=0.01):
+def AdaGrad(parameters, gradients, shapes, eta=0.01, epsilon=1e-8):
     """
     Adaptive subGradient
     :param parameters:
     :param gradients:
     :param shapes: shape of parameters
     :param eta: learning rate
+    :param epsilon:
     :return: updates of parameters
     """
     para_num = len(parameters)
     G = []
-    epsilon = 1e-8
     for shape in shapes:
         G.append(theano.shared(
             value=numpy.zeros(
@@ -106,7 +106,7 @@ def AdaGrad(parameters, gradients, shapes, eta=0.01):
     return updates
 
 
-def RMSProp(parameters, gradients, shapes, eta=0.001, gamma=0.9):
+def RMSProp(parameters, gradients, shapes, eta=0.001, gamma=0.9, epsilon=1e-8):
     """
     RMSProp: Divide the gradient by a running average of its recent magnitude
     :param parameters:
@@ -114,11 +114,11 @@ def RMSProp(parameters, gradients, shapes, eta=0.001, gamma=0.9):
     :param shapes: shape of parameters
     :param eta: learning rate
     :param gamma: decay factor
+    :param epsilon:
     :return: updates of parameters
     """
     para_num = len(parameters)
     G = []
-    epsilon = 1e-8
     for shape in shapes:
         G.append(theano.shared(
             value=numpy.zeros(
@@ -134,19 +134,19 @@ def RMSProp(parameters, gradients, shapes, eta=0.001, gamma=0.9):
     return updates
 
 
-def AdaDelta(parameters, gradients, shapes, gamma=0.95):
+def AdaDelta(parameters, gradients, shapes, gamma=0.95, epsilon=1e-6):
     """
     AdaDelta: An Adaptive Learning Rate
     :param parameters:
     :param gradients:
     :param shapes: shape of parameters
     :param gamma: decay factor
+    :param epsilon:
     :return: updates of parameters
     """
     para_num = len(parameters)
     G = []
     dx = []
-    epsilon = 1e-8
     for shape in shapes:
         G.append(theano.shared(
             value=numpy.zeros(
@@ -172,7 +172,7 @@ def AdaDelta(parameters, gradients, shapes, gamma=0.95):
     return updates
 
 
-def Adam(parameters, gradients, shapes, eta=0.002, gamma=0.999, beta=0.9):
+def Adam(parameters, gradients, shapes, eta=0.002, gamma=0.999, beta=0.9, epsilon=1e-8):
     """
     Adam: adaptive estimates of lower-order moments
     :param parameters:
@@ -181,6 +181,7 @@ def Adam(parameters, gradients, shapes, eta=0.002, gamma=0.999, beta=0.9):
     :param eta: learning rate
     :param beta: mean decay factor 
     :param gamma: variance decay factor
+    :param epsilon:
     :return: updates of parameters
     """
     para_num = len(parameters)
@@ -210,13 +211,13 @@ def Adam(parameters, gradients, shapes, eta=0.002, gamma=0.999, beta=0.9):
     next_G = [gamma * G[i] + (1 - gamma) * T.sqr(gradients[i]) for i in range(para_num)]
     updates.extend([(G[i], next_G[i]) for i in range(para_num)])
     updates.extend([(parameters[i], parameters[i] - eta * T.sqrt(1 - gamma ** t) / (1 - beta ** t) * next_m[i] / T.sqrt(
-        next_G[i] + 1e-8))
+        next_G[i] + epsilon))
                     for i in range(para_num)])
     updates.extend([(t, t + 1)])
     return updates
 
 
-def Adamax(parameters, gradients, shapes, eta=0.004, gamma=0.999, beta=0.9):
+def Adamax(parameters, gradients, shapes, eta=0.004, gamma=0.999, beta=0.9, epsilon=1e-8):
     """
     Adamax: adaptive estimates of lower-order moments
     :param parameters:
@@ -225,6 +226,7 @@ def Adamax(parameters, gradients, shapes, eta=0.004, gamma=0.999, beta=0.9):
     :param eta: learning rate
     :param beta: mean decay factor 
     :param gamma: variance decay factor
+    :param epsilon: 
     :return: updates of parameters
     """
     para_num = len(parameters)
@@ -253,7 +255,7 @@ def Adamax(parameters, gradients, shapes, eta=0.004, gamma=0.999, beta=0.9):
     updates = [(m[i], next_m[i]) for i in range(para_num)]
     next_G = [T.maximum(gamma * G[i], abs(gradients[i])) for i in range(para_num)]
     updates.extend([(G[i], next_G[i]) for i in range(para_num)])
-    updates.extend([(parameters[i], parameters[i] - eta / (1 - beta ** t) * next_m[i] / (next_G[i] + 1e-8))
+    updates.extend([(parameters[i], parameters[i] - eta / (1 - beta ** t) * next_m[i] / (next_G[i] + epsilon))
                     for i in range(para_num)])
     updates.extend([(t, t + 1)])
     return updates
