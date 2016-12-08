@@ -1,5 +1,3 @@
-
-
 # SGD Comparison
 Test various SGD algorithms on logistic regression and MLP, including
 
