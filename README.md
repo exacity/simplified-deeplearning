@@ -1,5 +1,10 @@
 # Simplified DeepLearning
 Quick and dirty implementations of some interesting works related to deep learning.
+Contribution is always welcome, you could just add links to your repository.
+
+You may use any of the deep learning frameworks, such as pytorch, theano, mxnet and tensorflow.
+However, you should keep the implementation as simple as possible. 
+
 
 ## Gradient Descent
 
@@ -38,8 +43,18 @@ Use neural network to approximate functions. The approximated functions are show
 ## Char-RNN
 Refer to [karpathy](https://github.com/karpathy/char-rnn) or [johnarevalo](https://github.com/johnarevalo/blocks-char-rnn).
 
-
 ## POS Tagging
+
+
+## Sequence to Sequence
+It is really hard to simplify because of the attention mechanism.
+We have try our best to simlify the encoder-decoder architecture, which is demonstrated in the following figures.
+<p align="center">
+<img src="https://raw.githubusercontent.com/SwordYork/sequencing/master/docs/figures/encoder.jpg" width="45%">
+<img src="https://raw.githubusercontent.com/SwordYork/sequencing/master/docs/figures/decoder.jpg" width="45%">
+</p>
+
+Please refer to [Sequencing](https://github.com/SwordYork/sequencing) for more details.
 
 
 ## PCA, PPCA
@@ -63,6 +78,7 @@ A simple demonstration of Generative Adversarial Networks (GAN), maybe problemat
 <img src="/GAN/figures/gaussian.png?raw=true" width="45%">
 <img src="/GAN/figures/training.gif?raw=true" width="45%">
 </p>
+
 According to the [paper](https://arxiv.org/abs/1406.2661), we also use GAN to generate Gaussian distribution which shown in the left figure. Then we try to generate digits based on MNIST dataset, however, we encouter "the Helvetica scenario" in which G collapses too many values of z to the same value of x. Nevertheless, it is a simple demonstration, please see the [details](https://github.com/SwordYork/simplified-deeplearning/tree/master/GAN).
 
 
