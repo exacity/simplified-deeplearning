@@ -82,5 +82,14 @@ A simple demonstration of Generative Adversarial Networks (GAN), maybe problemat
 According to the [paper](https://arxiv.org/abs/1406.2661), we also use GAN to generate Gaussian distribution which shown in the left figure. Then we try to generate digits based on MNIST dataset, however, we encouter "the Helvetica scenario" in which G collapses too many values of z to the same value of x. Nevertheless, it is a simple demonstration, please see the [details](https://github.com/SwordYork/simplified-deeplearning/tree/master/GAN).
 
 
+## Poem Generator
+A simple implement of chinese poem generator with LSTM.
+<p align="center">
+<img src="https://raw.githubusercontent.com/hjptriplebee/Chinese_poem_generator/master/demo2.png" width = "850" height = "350" alt="demo2" />
+</p>
+
+Please refer to [MC-PangHu](https://github.com/hjptriplebee/Chinese_poem_generator).
+
+
 Updating.... 
 Please help us to implement these examples, we need a simplified implementation. Or you have other nice examples, please add to this list.
