@@ -7,7 +7,7 @@
 &emsp;&emsp;近些年来，依靠人工设计高质量特征的传统机器学习算法在语音识别、自然语言处理以及图像处理等方面逐渐达到瓶颈，人们开始将目光重新转向神经网络，利用已经积累的大量数据资源在这一系列智能任务上取得了突破性的进展。包括语音识别、语义理解、图像识别等在内的研究领域中目前state-of-the-art的结果几乎清一色的都是采用了基于深度学习的方法。同时，GPU强大的并行计算能力以及包括[TensorFlow](https://www.tensorflow.org/)、[MXNet](https://mxnet.incubator.apache.org/)、[Pytorch](http://pytorch.org/)等在内的一系列深度学习框架的推出也为研究者和应用开发者提供了极大便利。
 
 &emsp;&emsp;[DeepLearningBook](http://www.deeplearningbook.org/)是目前第一本系统和完整的介绍深度学习的书籍，其作者包括深度学习领域的奠基人、处于研究生涯中期的领域中坚、更有近年来涌现的新星，非常适合搭建理论基础。但是直至去年，本书只有英文原版，对于大多数开发者来说，啃一本800页7*9英寸的书籍，难度可想而知。
-好消息是，在翻译人员的不懈努力下，[DeepLearningBook中文版](https://github.com/exacity/deeplearningbook-chinese)也已在GitHub上公开，高质量的中文翻译版已经由人民邮电出版社出版。
+好消息是，在翻译人员的不懈努力下，[DeepLearningBook中文版](https://github.com/exacity/deeplearningbook-chinese)也已在GitHub上公开，中文翻译版已经由人民邮电出版社出版。
 
 &emsp;&emsp;这个项目记录了我们对DeepLearningBook的学习笔记，我们按照全书的脉络对Deep Learning的基础框架进行了梳理和学习，同时将会附上使用TensorFlow实现的相关代码。
 
