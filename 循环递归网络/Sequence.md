@@ -1,4 +1,4 @@
-
+#持续更新中。。。
 ## Sequence to Sequence
 It is really hard to simplify because of the attention mechanism.
 We have try our best to simlify the encoder-decoder architecture, which is demonstrated in the following figures.
