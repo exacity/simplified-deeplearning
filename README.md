@@ -40,4 +40,4 @@
 1. [生成对抗网络](生成对抗网络/README.md)
 
 
->持续更新中，欢迎贡献简单易懂便于理解的代码示例，推荐使用Tensorflow和Jupyter Notebook提交代码和说明，详见：[如何贡献代码](contribute/README.md)。
+>持续更新中，欢迎贡献简单易懂便于理解的代码示例，推荐使用Tensorflow和Jupyter Notebook提交代码和说明，详见：[如何贡献代码](pending/README.md)。
