@@ -1,4 +1,5 @@
-### RNN
+## 持续更新中。。。
+## RNN
 However, MLP is unable to approximate the functions outside the region. We could use RNN to approximate some periodic functions such as $sin(x)$, and it could be used in time series prediction.
 
 ![sinx](img/sinx.png?raw=true "sinx")
