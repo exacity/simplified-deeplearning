@@ -6,4 +6,3 @@ A simple implement of chinese poem generator with LSTM.
 </p>
 
 Please refer to [MC-PangHu](https://github.com/hjptriplebee/Chinese_poem_generator).
-
