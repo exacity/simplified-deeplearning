@@ -54,22 +54,22 @@
 | [第二章 线性代数](https://exacity.github.io/deeplearningbook-chinese/Chapter2_linear_algebra/) | [线性代数](数学基础/线性代数.md) | @zengxy | |
 | [第三章 概率与信息论](https://exacity.github.io/deeplearningbook-chinese/Chapter3_probability_and_information_theory/) | [概率与信息论](数学基础/概率与信息论.md) | @zengxy |  |
 | [第四章 数值计算](https://exacity.github.io/deeplearningbook-chinese/Chapter4_numerical_computation/) | [数值计算](数学基础/数值计算.md) | @zengxy |  |
-| [第五章 机器学习基础](https://exacity.github.io/deeplearningbook-chinese/Chapter5_machine_learning_basics/) |[机器学习基础与实践](机器学习基础与实践/README.md) |@DaweiCheng  |  |
-| [第六章 深度前馈网络](https://exacity.github.io/deeplearningbook-chinese/Chapter6_deep_feedforward_networks/) | [深度前馈网络](深度前馈网络/README.md) | @DaweiCheng | @hjptriplebee  |
-| [第七章 深度学习中的正则化](https://exacity.github.io/deeplearningbook-chinese/Chapter7_regularization/) | [深度学习中的正则化](深度学习中的正则化/README.md) | @titicaca |  |
-| [第八章 深度模型中的优化](https://exacity.github.io/deeplearningbook-chinese/Chapter8_optimization_for_training_deep_models/) | [深度学习中的优化](深度学习中的优化/README.md) | @titicaca |   |
-| [第九章 卷积网络](https://exacity.github.io/deeplearningbook-chinese/Chapter9_convolutional_networks/) | [卷积网络](卷积网络/README.md) |  |  |
-| [第十章 序列建模：循环和递归网络](https://exacity.github.io/deeplearningbook-chinese/Chapter10_sequence_modeling_rnn/) | [循环递归网络](循环递归网络/README.md) |  | @hjptriplebee |
+| [第五章 机器学习基础](https://exacity.github.io/deeplearningbook-chinese/Chapter5_machine_learning_basics/) |[机器学习基础与实践](机器学习基础与实践/README.md) |@zengxy  | @fangjie  |
+| [第六章 深度前馈网络](https://exacity.github.io/deeplearningbook-chinese/Chapter6_deep_feedforward_networks/) | [深度前馈网络](深度前馈网络/README.md) | @kimliu0803 | @hjptriplebee @fangjie  |
+| [第七章 深度学习中的正则化](https://exacity.github.io/deeplearningbook-chinese/Chapter7_regularization/) | [深度学习中的正则化](深度学习中的正则化/README.md) | @lupeng666 | @titicaca |
+| [第八章 深度模型中的优化](https://exacity.github.io/deeplearningbook-chinese/Chapter8_optimization_for_training_deep_models/) | [深度学习中的优化](深度学习中的优化/README.md) | @jinshengwang92 | @lupeng666  |
+| [第九章 卷积网络](https://exacity.github.io/deeplearningbook-chinese/Chapter9_convolutional_networks/) | [卷积网络](卷积网络/README.md) | @lupeng666 @fangjie|  |
+| [第十章 序列建模：循环和递归网络](https://exacity.github.io/deeplearningbook-chinese/Chapter10_sequence_modeling_rnn/) | [RNN](循环递归网络/README.md) <br>[LSTM](循环递归网络/README.md) <br>[序列到序列](循环递归网络/README.md) | @zengxy <br> | @hjptriplebee |
 | [第十一章 实践方法论](https://exacity.github.io/deeplearningbook-chinese/Chapter11_practical_methodology/) |[实践调参](实践调参/README.md)  |  |  |
 | [第十二章 应用](https://exacity.github.io/deeplearningbook-chinese/Chapter12_applications/) |  | |  |
 | [第十三章 线性因子模型](https://exacity.github.io/deeplearningbook-chinese/Chapter13_linear_factor_models/) | [线性因子模型](线性因子模型/README.md) | @jingshengwang92 | @YaoStriveCode |
 | [第十四章 自编码器](https://exacity.github.io/deeplearningbook-chinese/Chapter14_autoencoders/) | [自编码器](自编码器/README.md) |  |  |
 | [第十五章 表示学习](https://exacity.github.io/deeplearningbook-chinese/Chapter15_representation_learning/) | [表示学习](表示学习/README.md) |  | |
-| [第十六章 深度学习中的结构化概率模型](https://exacity.github.io/deeplearningbook-chinese/Chapter16_structured_probabilistic_modelling/) |[结构化概率模型](结构化概率模型/README.md) | |
-| [第十七章 蒙特卡罗方法](https://exacity.github.io/deeplearningbook-chinese/Chapter17_monte_carlo_methods/) | [蒙特卡洛方法](蒙特卡洛方法/README.md) | @zengxy |   |
+| [第十六章 深度学习中的结构化概率模型](https://exacity.github.io/deeplearningbook-chinese/Chapter16_structured_probabilistic_modelling/) |[结构化概率模型](结构化概率模型/README.md) | @xuanming |
+| [第十七章 蒙特卡罗方法](https://exacity.github.io/deeplearningbook-chinese/Chapter17_monte_carlo_methods/) | [蒙特卡洛方法](蒙特卡洛方法/README.md) | @xuanming |   |
 | [第十八章 面对配分函数](https://exacity.github.io/deeplearningbook-chinese/Chapter18_confronting_the_partition_function/) |  | |  |
 | [第十九章 近似推断](https://exacity.github.io/deeplearningbook-chinese/Chapter19_approximate_inference/) |  | | |
-| [第二十章 深度生成模型](https://exacity.github.io/deeplearningbook-chinese/Chapter20_deep_generative_models/) |[玻尔兹曼机](玻尔兹曼机/README.md), [有向生成网络](有向生成网络),[有向生成网络](有向生成网络) | @swordyork | |
+| [第二十章 深度生成模型](https://exacity.github.io/deeplearningbook-chinese/Chapter20_deep_generative_models/) |[玻尔兹曼机](玻尔兹曼机/README.md)<br> [有向生成网络](有向生成网络)<br> [有向生成网络](有向生成网络) | @vistep <br>@swordyork | |
 | 参考文献 | | |  |
 
 
