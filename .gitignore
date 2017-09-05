@@ -16,3 +16,10 @@ __pycache__
 cmake_build/
 .idea/**
 */data
+
+.idea/
+*.dot
+.ipynb_checkpoints/
+.gitignore
+*/img/*.ipynb
+数学基础/img/*.ipnyb
