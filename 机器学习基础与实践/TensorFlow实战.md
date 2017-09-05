@@ -112,7 +112,7 @@ Variable实际上是一种特殊的运算，它接受张量的输入，同是输
 
 &emsp;&emsp;在这个示例中，将会使用TensorFlow构建一个基本的线性分类模型来对[mnist数据集](http://yann.lecun.com/exdb/mnist/)中的的手写数字进行识别。MNIST数据集是一个经典的分类数据集，它的每个样本是一个28\*28的灰度图，每个图片展示的是手写数字0~9中的一个，如下图示。
 
-![mnist dataset](../img/MNIST.png)
+![mnist dataset](img/MNIST.png)
 
 任务目标就是识别数字，即将数字正确的分类，采用模型的一些参数如下：
 
