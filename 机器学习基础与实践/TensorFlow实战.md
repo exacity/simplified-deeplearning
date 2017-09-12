@@ -120,7 +120,7 @@ Variable实际上是一种特殊的运算，它接受张量的输入，同是输
 
 + 特征：图片的灰度值特征
 
-+ 损失函数：log损失函数 $loss = \sum_i I_{i=lable}logp(y=i)$
++ 损失函数：log损失函数 $loss = -\sum_i I_{i=lable}logp(y=i)$
 
 下面是代码示例:
 >这些代码可以在我们提供的jupyter notebook示例[tensorflow example](src/linear_model.ipynb)中直接运行查看。
