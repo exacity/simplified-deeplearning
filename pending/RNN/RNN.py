@@ -47,7 +47,7 @@ if __name__ == "__main__":
     prob = tf.matmul(h[-1], w2) + b2
 
     # loss
-    loss = tf.reduce_mean(tf.reduce_sum(tf.nn.softmax_cross_entropy_with_logits(labels = gitGTY, logits = prob)))
+    loss = tf.reduce_mean(tf.reduce_sum(tf.nn.softmax_cross_entropy_with_logits(labels = GTY, logits = prob)))
     train = tf.train.AdamOptimizer(0.01).minimize(loss)
 
     # evaluate
