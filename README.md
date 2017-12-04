@@ -18,21 +18,23 @@
 ## 目录
 
 1. [数学基础](数学基础/README.md)
-   1. [线性代数](数学基础/线性代数.md)
-   1. [概率与信息论](数学基础/概率与信息论.md)
-   1. [数值计算](数学基础/数值计算.md)
+    1. [线性代数](数学基础/线性代数.md)
+    1. [概率与信息论](数学基础/概率与信息论.md)
+    1. [数值计算](数学基础/数值计算.md)
 1. [机器学习基础与实践](机器学习基础与实践/README.md)
-   1. [机器学习基础](机器学习基础与实践/机器学习基础.md)
-   1. [TensorFlow实战](机器学习基础与实践/TensorFlow实战.md)
+    1. [机器学习基础](机器学习基础与实践/机器学习基础.md)
+    1. [TensorFlow实战](机器学习基础与实践/TensorFlow实战.md)
 1. [深度前馈网络](深度前馈网络/README.md)
 1. [深度学习中的正则化](深度学习中的正则化/README.md)
 1. [深度学习中的优化](深度学习中的优化/README.md)
 1. [卷积网络](卷积网络/README.md)
+    1. [简单卷积网络示例](简单卷积网络.md)
+    1. [经典CNN模型(LeNet and AlexNet)](卷积网络进阶.ipynb)
 1. [循环递归网络](循环递归网络/README.md)
-   1. [RNN示例](循环递归网络/RNN.md)
-   1. [CharRNN示例](循环递归网络/CharRNN.md)
-   1. [序列到序列学习](循环递归网络/Sequence.md)
-   1. [LSTM](循环递归网络/LSTM.md)
+    <!-- 1. [RNN示例](循环递归网络/RNN.md) -->
+    <!-- 1. [CharRNN示例](循环递归网络/CharRNN.md) -->
+    <!-- 1. [序列到序列学习](循环递归网络/Sequence.md) -->
+    <!-- 1. [LSTM](循环递归网络/LSTM.md) -->
 1. [实践调参](实践调参/README.md)
 1. [线性因子模型](线性因子模型/README.md)
 1. [自编码器](自编码器/README.md)
@@ -62,8 +64,8 @@
 | [第六章 深度前馈网络](https://exacity.github.io/deeplearningbook-chinese/Chapter6_deep_feedforward_networks/) | [深度前馈网络](深度前馈网络/README.md) | @kimliu0803 | @hjptriplebee @fangjie  |
 | [第七章 深度学习中的正则化](https://exacity.github.io/deeplearningbook-chinese/Chapter7_regularization/) | [深度学习中的正则化](深度学习中的正则化/README.md) | @lupeng666 | @titicaca |
 | [第八章 深度模型中的优化](https://exacity.github.io/deeplearningbook-chinese/Chapter8_optimization_for_training_deep_models/) | [深度学习中的优化](深度学习中的优化/README.md) | @jinshengwang92 | @lupeng666  |
-| [第九章 卷积网络](https://exacity.github.io/deeplearningbook-chinese/Chapter9_convolutional_networks/) | [卷积网络](卷积网络/README.md) | @lupeng666 @fangjie|  |
-| [第十章 序列建模：循环和递归网络](https://exacity.github.io/deeplearningbook-chinese/Chapter10_sequence_modeling_rnn/) | [RNN](循环递归网络/README.md) <br>[LSTM](循环递归网络/README.md) <br>[序列到序列](循环递归网络/README.md) | @zengxy <br> | @hjptriplebee |
+| [第九章 卷积网络](https://exacity.github.io/deeplearningbook-chinese/Chapter9_convolutional_networks/) | [卷积网络](卷积网络/README.md) | @LiuCheng|  |
+| [第十章 序列建模：循环和递归网络](https://exacity.github.io/deeplearningbook-chinese/Chapter10_sequence_modeling_rnn/) | [循环递归网络](循环递归网络/README.md) | @zengxy | @hjptriplebee |
 | [第十一章 实践方法论](https://exacity.github.io/deeplearningbook-chinese/Chapter11_practical_methodology/) |[实践调参](实践调参/README.md)  | @daweicheng |  |
 | [第十二章 应用](https://exacity.github.io/deeplearningbook-chinese/Chapter12_applications/) |  | |  |
 | [第十三章 线性因子模型](https://exacity.github.io/deeplearningbook-chinese/Chapter13_linear_factor_models/) | [线性因子模型](线性因子模型/README.md) | @jingshengwang92 | @YaoStriveCode |
