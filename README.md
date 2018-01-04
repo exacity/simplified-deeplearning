@@ -28,13 +28,15 @@
 1. [深度学习中的正则化](深度学习中的正则化/README.md)
 1. [深度学习中的优化](深度学习中的优化/README.md)
 1. [卷积网络](卷积网络/README.md)
-    1. [简单卷积网络示例](简单卷积网络.md)
-    1. [经典CNN模型(LeNet and AlexNet)](卷积网络进阶.ipynb)
+    1. [简单卷积网络示例](卷积网络/简单卷积网络.md)
+    1. [经典CNN模型(LeNet and AlexNet)](卷积网络/卷积网络进阶.ipynb)
+    1. [GoogLeNet](卷积网络/GoogLeNet.ipynb)
+    1. [ResNet](卷积网络/ResNet.ipynb)
 1. [循环递归网络](循环递归网络/README.md)
-    <!-- 1. [RNN示例](循环递归网络/RNN.md) -->
-    <!-- 1. [CharRNN示例](循环递归网络/CharRNN.md) -->
-    <!-- 1. [序列到序列学习](循环递归网络/Sequence.md) -->
-    <!-- 1. [LSTM](循环递归网络/LSTM.md) -->
+    1. [RNN示例](循环递归网络/RNN.md)
+    1. [CharRNN示例](循环递归网络/CharRNN.md)
+    1. [LSTM](循环递归网络/LSTM.md)
+        <!-- 1. [序列到序列学习](循环递归网络/Sequence.md) -->
 1. [实践调参](实践调参/README.md)
 1. [线性因子模型](线性因子模型/README.md)
 1. [自编码器](自编码器/README.md)
