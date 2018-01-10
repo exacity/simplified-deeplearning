@@ -34,8 +34,8 @@
     1. [ResNet](卷积网络/ResNet.ipynb)
 1. [循环递归网络](循环递归网络/README.md)
     1. [RNN示例](循环递归网络/RNN.md)
-    1. [CharRNN示例](循环递归网络/CharRNN.md)
     1. [LSTM](循环递归网络/LSTM.md)
+    1. [基于CharRNN的古诗生成](循环递归网络/poetry-charRNN.ipynb)
         <!-- 1. [序列到序列学习](循环递归网络/Sequence.md) -->
 1. [实践调参](实践调参/README.md)
 1. [线性因子模型](线性因子模型/README.md)
