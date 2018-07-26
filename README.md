@@ -70,7 +70,7 @@
 | [第十章 序列建模：循环和递归网络](https://exacity.github.io/deeplearningbook-chinese/Chapter10_sequence_modeling_rnn/) | [循环递归网络](循环递归网络/README.md) | @zengxy | @hjptriplebee |
 | [第十一章 实践方法论](https://exacity.github.io/deeplearningbook-chinese/Chapter11_practical_methodology/) |[实践调参](实践调参/README.md)  | @daweicheng |  |
 | [第十二章 应用](https://exacity.github.io/deeplearningbook-chinese/Chapter12_applications/) |  | |  |
-| [第十三章 线性因子模型](https://exacity.github.io/deeplearningbook-chinese/Chapter13_linear_factor_models/) | [线性因子模型](线性因子模型/README.md) | @jingshengwang92 | @YaoStriveCode |
+| [第十三章 线性因子模型](https://exacity.github.io/deeplearningbook-chinese/Chapter13_linear_factor_models/) | [线性因子模型](线性因子模型/README.md) | @liqi | @YaoStriveCode |
 | [第十四章 自编码器](https://exacity.github.io/deeplearningbook-chinese/Chapter14_autoencoders/) | [自编码器](自编码器/README.md) | @daweicheng |  |
 | [第十五章 表示学习](https://exacity.github.io/deeplearningbook-chinese/Chapter15_representation_learning/) | [表示学习](表示学习/README.md) |@daweicheng  | |
 | [第十六章 深度学习中的结构化概率模型](https://exacity.github.io/deeplearningbook-chinese/Chapter16_structured_probabilistic_modelling/) |[结构化概率模型](结构化概率模型/README.md) | @xuanming |
