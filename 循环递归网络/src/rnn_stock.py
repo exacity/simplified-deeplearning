@@ -282,5 +282,5 @@ my_model = MyModel()
 test_y,test_predict = my_model.predict_rnn(data, "./stock_model_rnn/")
 plot_predict(test_y, test_predict)
 
-error_lstm = np.sum((test_y[1:300] - test_predict[1:300])**2)
-print(error_lstm)
+error_rnn = np.sum((test_y[1:300] - test_predict[1:300])**2)
+print(error_rnn)
