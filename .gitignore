@@ -23,3 +23,4 @@ cmake_build/
 .gitignore
 */img/*.ipynb
 数学基础/img/*.ipnyb
+循环递归网络/data/json
