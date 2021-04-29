@@ -59,7 +59,7 @@
 | 原书章节 | 对应案例  | 负责人 | 贡献者 |
 | ------------ | ------------ | ------------ | ------------ |
 | [第一章 前言](https://exacity.github.io/deeplearningbook-chinese/Chapter1_introduction/) | [前言介绍](README.md) | @swordyork | @daweicheng |
-| [第二章 线性代数](https://exacity.github.io/deeplearningbook-chinese/Chapter2_linear_algebra/) | [线性代数](数学基础/线性代数.md) | @zengxy | |
+| [第二章 线性代数](https://exacity.github.io/deeplearningbook-chinese/Chapter2_linear_algebra/) | [线性代数](数学基础/线性代数.md) | @zengxy | @XueniLuo |
 | [第三章 概率与信息论](https://exacity.github.io/deeplearningbook-chinese/Chapter3_probability_and_information_theory/) | [概率与信息论](数学基础/概率与信息论.md) | @zengxy |  |
 | [第四章 数值计算](https://exacity.github.io/deeplearningbook-chinese/Chapter4_numerical_computation/) | [数值计算](数学基础/数值计算.md) | @zengxy |  |
 | [第五章 机器学习基础](https://exacity.github.io/deeplearningbook-chinese/Chapter5_machine_learning_basics/) |[机器学习基础与实践](机器学习基础与实践/README.md) |@zengxy  | @fangjie  |
