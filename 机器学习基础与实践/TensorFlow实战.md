@@ -50,11 +50,12 @@ y_2 = x_1 * x_2
 ![x_1 expand](img/x_1_expand.png)
 
 > [TensorBoard](https://www.tensorflow.org/get_started/summaries_and_tensorboard)是TensorFlow配套的可视化工具，可以使用TensorBoard对TensorFlow训练过程中的参数进行可视化，上面例子中生成并展示计算图的代码方法如下：
->```python
->logDir = "/your/path/to/logdir"
->train_writer = tf.summary.FileWriter(logDir,sess.graph)
->```
->在终端使用 tensorboard --logdir=/your/path/to/logdir即可打开TensorBoard服务，在浏览器中进行可视化。
+>
+> ```python
+> logDir = "/your/path/to/logdir"
+> train_writer = tf.summary.FileWriter(logDir,sess.graph)
+> ```
+> 在终端使用 tensorboard --logdir=/your/path/to/logdir即可打开TensorBoard服务，在浏览器中进行可视化。
 
 ## 3. 使用Session执行计算
 
@@ -179,3 +180,4 @@ with tf.Session() as sess:
 ```
 
 运行10000次后，模型在测试集上的分类正确率达到了0.85。
+
