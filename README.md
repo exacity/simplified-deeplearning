@@ -9,7 +9,7 @@
 &emsp;&emsp;[DeepLearningBook](http://www.deeplearningbook.org/)是目前第一本系统和完整的介绍深度学习的书籍，其作者包括深度学习领域的奠基人、处于研究生涯中期的领域中坚、更有近年来涌现的新星，非常适合搭建理论基础。但是直至去年，本书只有英文原版，对于大多数开发者来说，啃一本800页7*9英寸的书籍，难度可想而知。
 好消息是，在翻译人员的不懈努力下，[DeepLearningBook中文版](https://github.com/exacity/deeplearningbook-chinese)也已在GitHub上公开，中文翻译版已经由人民邮电出版社出版。
 
-&emsp;&emsp;这个项目记录了我们对DeepLearningBook的学习笔记，我们按照全书的脉络对Deep Learning的基础框架进行了梳理和学习，同时将会附上使用TensorFlow实现的相关代码。
+&emsp;&emsp;这个项目记录了我们对DeepLearningBook的学习笔记，我们按照全书的脉络对Deep Learning的基础框架进行了梳理和学习，同时将会附上使用 **PyTorch** 和 TensorFlow实现的相关代码。
 
 >GitHub的markdown不再支持tex公式的解析显示，使用Chrome的同学可以安装[GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)添加MathJax的解析以对公式正常显示。
 
