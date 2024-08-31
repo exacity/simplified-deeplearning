@@ -81,10 +81,9 @@
 | 参考文献 | | |  |
 
 
+## All Thanks to Our Contributors :
 
-还有很多同学提出了不少建议，我们都列在此处。
+<a href="https://github.com/exacity/simplified-deeplearning/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=exacity/simplified-deeplearning" />
+</a>
 
-@endymecyc @ZPGLW @YunPeixian007...
-
-如有遗漏，请务必通知我们，可以发邮件至`echo c3dvcmQueW9ya0BnbWFpbC5jb20K | base64 --decode`。
-这是我们必须要感谢的，所以不要不好意思。
