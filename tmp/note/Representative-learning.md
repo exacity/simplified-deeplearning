@@ -4,7 +4,7 @@
 
 Hypothesis
 
-:Unlabeled data can be used to learn a good representation.
+: Unlabeled data can be used to learn a good representation.
 
 - Supervised & semi-supervised & unsupervised learning
   - Supervised learning:
@@ -116,3 +116,100 @@ inaccessible.
     - UL + SL without P: one single decisive parameter
   - Different hyperparameters in two phases：
     - Params -> Forward feedback -> Gradient calculate -> Backward feedback -> Update params
+
+### Today
+
+- Scale of labeled dataset:
+  - Large & Medium: SL + **Dropout/batch normalization**
+  - Small: Batesian methods
+
+- Milestone effect:
+  - SP for transfer learning -> Convolutional networks
+  - Transfer learning and domain adaptation
+
+## 15.2 Transfer Learning and Domain Adaptation
+
+### Transfer Learning
+
+UL for transfer learning:
+
+learning a good feature space -> well-trained linear classifer from limited labeled examples
+
+#### Forms
+
+##### One-shot learning
+
+- One labeled example -> Learning a good feature space -> Infering all cluster around the same point
+  - variation
+  - invariation(clustered)
+
+##### Zero-shot learning
+
+- 3 random vars:
+  - x
+  - y
+  - T(description of tasks)
+    - > If we have a training set containing unsupervised examples of objects that live in the same space as T, we may be able to infer the meaning of unseen instances of T.
+    - T needs generalization: can't be one-hot code
+- Jointly learning:
+  - representation_1 in space A
+  - representation_2 in space B
+  - relations between 1 and 2 or A and B
+    - Take advantage of related respective feature vectors
+- Related: Multi-modal learning![alt text](image.png)
+
+#### Input semantics
+
+Representation learning -> transfer learning, multi-task learning, and domain adaptation.
+
+- e.g. Visual Categories: low-level notions of edges and visual shapes sharing
+
+#### Output semantics
+
+Task-specific lower-level + Shared upper-level
+
+### Domain adaptation
+
+- e.g. Sentiment analysis(data from web)
+  - vocabulary and style vary from domains
+- concept drift: a form of transfer learning
+
+### Multi-task learning
+
+- Typically refers to SL, also for UL or RL(reinforcement).
+- the same representation may be useful in both settings <--> representation benefits from both tasks
+
+## 15.3 Semi-Supervised Disentangling of Causal Factors
+
+### What makes one representation better than another?
+
+#### Better representation
+
+> The features within the representation correspond to the underlying causes of the observed data, with separate features or directions in feature space corresponding to different causes, so that the representation disentangles the causes from one another.
+
+- Better p(x) -> Better p(y|x).
+
+> A representation that cleanly separates the underlying causal factors may not necessarily be one that is easy to model.
+
+!P744-数学公式
+
+- In practice: Is Brute force solution possible?
+  - BFS:Captures all h_j and disentangles them, then predict y from h.
+    - Can'tcapture all factors of variation
+  - What to encode?
+    - SL + UL Signals
+    - Only UL with larger representations
+
+#### Definition Modifying
+
+- Fixed criterion: mean squared error
+  - failed when identifying "less" salient elements, like small ping-pong ball![alt text](image-1.png)
+- Solution: **GAN(generative adversarial networks)**(Are there more state-of-the-art solutions nowadays?)
+  - What's salient element? -all structured pattern that the **feedforward network** can recognize.
+  - GAN helps learning the underlying causal factors.
+    - Benefit: x-effect; y-cause; **modeling p(x | y) is robust to changes in p(y)**.
+    - Or: the causal mechanisms remain invariant, while the **marginal distribution** can change.
+
+## 15.4 Distributed Representation
+
+P748
