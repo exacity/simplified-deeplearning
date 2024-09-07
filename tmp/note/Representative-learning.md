@@ -12,24 +12,19 @@ Hypothesis
   - semi-supervised learning:
     - Also learning from the unlabeled data
     - learn good representations -> unlabeled data: Possible
-    - 
 
 ## 15.1 Greedy Layer-Wise Unsupervised Pretraining
 
 - A representation learned for one task can sometimes be useful for another task(SL).
-  - Unsupervised Pretraining -> Train a DSN(deeo supervised network) without convolution or recurrence
+  - Unsupervised Pretraining -> Train a DSN(deep supervised network) without convolution or recurrence
 
 ### Compose
 
-- Layer -> pretrained by unspervised learning -> simpler output for nexe Layer
+- Layer -> pretrained by unspervised learning -> simpler output for next Layer
   - A single-layer representation learning algorithm
     - RBM
   - A single-layer autoencoder
   - A sparse coding model
-
-```algorithm 15.1(Pseudocode-伪代码)
-
-```
 
 ### Effect
 
