@@ -92,4 +92,20 @@ No clean, undirectional narrative -> Edge isn't associated with a conditional pr
 
 #### 16.2.3 The Partition Function
 
-P775 - P512
+##### Normalized probability distribution:
+
+- $$p(x)=\frac{1}{Z}\tilde{p}(x)$$
+- Z: An integral or sum over all possible joint assignments of the state x -> Hard to compute -> approximations
+  - Z doesn't exist:
+    - some vars are continuous and the integral of p over their domain diverges
+
+##### Difference between directed/undirected modeling
+
+776
+
+#### 16.2.4 Energy-Based Models
+
+One assumption: **∀x, p˜(x) > 0**  <- enforce this condition **EBM**
+
+- $$\tilde{p}(x)=\exp(-E(x))$$
+  - E(x): energy function

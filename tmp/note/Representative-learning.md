@@ -54,7 +54,7 @@ Hypothesis
 
 ### Why Does Unsupervised Pretraining Work?
 
-#### Combination of two different ideas:
+#### Combination of two different ideas
 
 - Initial parameters -->> Regularizing effect on the model
   - Out-of-date idea: Local initialization -> Local Minimum
@@ -74,7 +74,7 @@ Hypothesis
   - basis: Features that are useful for the unsupervised task may also be useful for the supervised learning task
     - The effectiveness of features learned through unsupervised training heavily depends on the specific model architecture. For example, a top-layer linear classifier requires features that make the underlying classes linearly separable.
 
-#### When the initial representation is poor, unsupervised will be more effective.
+#### When the initial representation is poor, unsupervised will be more effective
 
 - Example:
   - Word embeddings
@@ -84,7 +84,7 @@ Hypothesis
   - Less labeled examples scenerios
     - Idea: Unsupervised pretraining as a regularizer.
 
-#### When the function to be learned is extremely complicated, UP is more useful.
+#### When the function to be learned is extremely complicated, UP is more useful
 
 > Unsupervised learning differs from regularizers like weight decay because it does not bias the learner toward discovering a simple function but rather toward discovering feature functions that are useful for the unsupervised learning task.
 
@@ -102,7 +102,6 @@ inaccessible.
       - the gradient is large but it is difficult to find a downhill step due to problems such as **stochasticity** or poor conditioning of the **Hessian**.
     - Pretraining reduces the variance of the estimation process,initializes neural network parameters into a region that they do not escape
       - results: more consistent
-      - 
 
 ### Disadvantages
 
