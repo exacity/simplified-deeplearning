@@ -23,8 +23,8 @@ Hypothesis
 - Layer -> pretrained by unspervised learning -> simpler output for next Layer
   - A single-layer representation learning algorithm
     - RBM
-  - A single-layer autoencoder
-  - A sparse coding model
+    - A single-layer autoencoder
+    - A sparse coding model
 
 ### Effect
 
