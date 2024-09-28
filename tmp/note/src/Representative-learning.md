@@ -37,7 +37,7 @@ Hypothesis
       - deep autoencoders, probabilistic models with many layers of latent variables
         - models above:
           - deep belief networks
-          - deep  Boltzmann machines
+          - deep Boltzmann machines
 
 ### Interpretation
 
@@ -59,7 +59,7 @@ Hypothesis
 - Initial parameters -->> Regularizing effect on the model
   - Out-of-date idea: Local initialization -> Local Minimum
   - Now:
-    - standard neural network  training procedures usually do not arrive at a critical point
+    - standard neural network training procedures usually do not arrive at a critical point
     - Local-pretraining-initialization -> Inaccessible areas
   - Problems:
     - What unsupervising-pretrained parameters should be retained for supervised learning next?
