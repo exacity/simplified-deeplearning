@@ -3,3 +3,5 @@
 
 ## 目录
 1. [独立成分分析ICA](ICA.ipynb)
+2. [主成分分析PCA(PPCA前置)](PCA.md)
+3. [概率PCA](PPCA.md)
