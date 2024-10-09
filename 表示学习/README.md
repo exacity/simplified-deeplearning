@@ -1,6 +1,6 @@
 # 15. 表示学习
 
-[笔记](./note/15.表示学习.md)
+笔记见[这里](./note/15.表示学习.md)。
 
 ## 15.1 贪心逐层无监督预训练(Greedy Layer-Wise Unsupervised Pretraining)
 
